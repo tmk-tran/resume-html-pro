@@ -57,6 +57,7 @@ body{
 
 .resume .resume_left .regular{
   color: #b1eaff;
+  border-bottom: 2px solid #b1eaff;
 }
 
 .resume .resume_item{
@@ -140,6 +141,10 @@ body{
 .resume .resume_right ul li .info{
   margin-bottom: 20px;
   
+}
+
+.work_info{
+  padding: 5px 0
 }
 
 .resume .resume_right ul li:last-child .info{
