@@ -91,6 +91,44 @@ body{
   position: relative;
 }
 
+.skills ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills .li_wrap {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 50px; /*set the width of the icon box /*
+  height: 50px; /* set the height of the icon box */
+  display: flex; /* display the contents of the icon box as a flex container */
+  align-items: center; /* center the contents of the icon box vertically */
+  justify-content: center; /* center the contents of the icon box horizontally */
+}
+
+.skills .li_wrap{
+  background: #fff;
+}
+
+.icon i {
+  font-size: 25px; /* set the font size of the icon */
+}
+
+.li_wrap span {
+  font-size: 10px; /* set the font size of the text */
+  text-align: center; /*center the text/*
+}
+
 .resume .icon i,
 .resume .resume_right .resume_hobbies ul li i{
   position: absolute;
@@ -103,7 +141,7 @@ body{
   color: #b1eaff;
 }
 
-.resume .resume_left .resume skills ul li{
+.resume .resume_left .resume_skills ul li{
   color: #b1eaff;
   justify-content: space-between;
 }
