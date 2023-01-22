@@ -108,14 +108,28 @@ body{
   justify-content: center;
 }
 
+.icon {
+  width: 50px; /*set the width of the icon box /*
+  height: 50px; /* set the height of the icon box */
+  display: flex; /* display the contents of the icon box as a flex container */
+  align-items: center; /* center the contents of the icon box vertically */
+  justify-content: center; /* center the contents of the icon box horizontally */
+}
+
 .skills .li_wrap{
   background: #fff;
 }
 
-.skills .li_wrap .text{
-  margin-top: 5px;
-  
+.icon i {
+  font-size: 25px; /* set the font size of the icon */
 }
+
+.li_wrap span{
+  font-size: 10px;
+  text-align: center;
+}
+
+
 
 .resume .icon i,
 .resume .resume_right .resume_hobbies ul li i{
