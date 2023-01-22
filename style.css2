@@ -15,11 +15,18 @@ body{
   color: #555555;
 }
 
-.bold{
+.bold1{
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.bold2{
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
 }
+
 
 .semi-bold{
   font-weight: 500;
@@ -51,7 +58,13 @@ body{
   margin-bottom: 40px;
 }
 
-.resume .resume_left .bold{
+.resume .resume_left .bold1{
+  line-height: 40px;
+  color: #fff;
+  padding: 45px;
+}
+
+.resume .resume_left .bold2{
   color: #fff;
   padding: 25px;
 }
