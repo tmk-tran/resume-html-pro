@@ -139,17 +139,17 @@ body{
 }
 
 .resume .resume_right ul li .info{
-  margin-bottom: 20px;
-  
+  margin-bottom: 20px; 
 }
+
 
 .work_info{
   padding: 5px 0;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 
 .resume .resume_right ul li:last-child .info{
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .resume .resume_right .resume_work ul li:before,
@@ -162,6 +162,28 @@ body{
   height: 6px;
   border-radius: 50%;
   border: 2px solid #0bbff4;
+}
+
+
+.resume .resume_right .resume_work .duties li:before{
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bbff4;
+}
+
+.resume .resume_right .resume_work .duties li:after{
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 2px;
+  height: 115px;
+  background: #0bb5f4;
 }
 
 .resume .resume_right .resume_work ul li:after,
