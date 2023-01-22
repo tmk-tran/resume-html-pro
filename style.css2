@@ -48,11 +48,12 @@ body{
 }
 
 .resume .title{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .resume .resume_left .bold{
   color: #fff;
+  padding: 25px;
 }
 
 .resume .resume_left .regular{
@@ -97,7 +98,7 @@ body{
   justify-content: space-between;
 }
 
-.skills .li_wrap {
+.skills .li_wrap{
   width: 100px;
   height: 100px;
   margin-bottom: 15px;
@@ -121,13 +122,15 @@ body{
 }
 
 .icon i {
-  font-size: 25px; /* set the font size of the icon */
+  font-size: 25px;
 }
 
-.li_wrap span {
-  font-size: 10px; /* set the font size of the text */
-  text-align: center; /*center the text/*
+.li_wrap span{
+  font-size: 12px;
+  text-align: center;
 }
+
+
 
 .resume .icon i,
 .resume .resume_right .resume_hobbies ul li i{
