@@ -42,7 +42,8 @@ body{
 
 .resume .resume_left{
   width: 280px;
-  background: #0bb5f4;
+  /* background: #0bb5f4; */
+  background: #e3e3e3de;
 }
 
 .resume .resume_left .resume-profile{
@@ -60,7 +61,7 @@ body{
 
 .resume .resume_left .bold1{
   line-height: 40px;
-  color: #fff;
+  /* color: #fff; */
   padding: 45px;
 }
 
@@ -73,12 +74,12 @@ body{
 
 .resume .resume_left .regular{
   color: #b1eaff;
-  border-bottom: 2px solid #b1eaff;
+  border-bottom: 2px solid #000000;
 }
 
 .resume .resume_item{
   padding: 25px 0;
-  border-bottom: 2px solid #b1eaff;
+  border-bottom: 2px solid #000000;
 }
 
 .resume .resume_left .resume_item:last-child,
@@ -146,9 +147,9 @@ body{
   transform: translate(-50%,-50%); 
 }
 
-.resume .resume_left ul li .data{
+/* .resume .resume_left ul li .data{
   color: #b1eaff;
-}
+} */
 
 .resume .resume_left .resume_skills ul li{
   color: #b1eaff;
