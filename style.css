@@ -1,3 +1,5 @@
+@import url("fontawesome-all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 *{
@@ -66,7 +68,7 @@ body{
 }
 
 .resume .resume_left .bold2{
-  color: #fff;
+  /* color: #fff; */
   padding: 25px;
   margin-left: 50px;
   margin-top: 20px;
@@ -103,15 +105,20 @@ body{
   background: #fff;
   color: #000000;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 25px;
   font-size: 16px;
   position: relative;
+}
+
+.skill-icon {
+  font-size: 20px;
 }
 
 .skills ul{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-right: 25px;
 }
 
 .skills .li_wrap{
@@ -135,7 +142,7 @@ body{
 }
 
 .li_wrap span{
-  font-size: 12px;
+  font-size: 9px;
   text-align: center;
 }
 
@@ -151,10 +158,10 @@ body{
   color: #b1eaff;
 } */
 
-.resume .resume_left .resume_skills ul li{
+/* .resume .resume_left .resume_skills ul li{
   color: #b1eaff;
   justify-content: space-between;
-}
+} */
 
 .resume .resume_left .resume_skills ul li .skill_name{
   width: 25%;
@@ -245,7 +252,7 @@ body{
   background: #000000;
 }
 
-.resume .resume_right .resume_hobbies ul{
+/* .resume .resume_right .resume_hobbies ul{
   display: flex;
   justify-content: space-between;
 }
@@ -275,4 +282,4 @@ body{
 
 .resume .resume_right .resume_hobbies ul li:last-child:before{
   display: none;
-}
+} */
