@@ -25,7 +25,7 @@ body{
 
 .bold2{
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -114,6 +114,10 @@ body{
   font-size: 20px;
 }
 
+.skill-icon i {
+  color: black;
+}
+
 .skills ul{
   display: flex;
   flex-wrap: wrap;
@@ -163,7 +167,7 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%); 
+  transform: translate(-50%,-50%);
 }
 
 /* .resume .resume_left ul li .data{
