@@ -11,7 +11,7 @@
 }
 
 body{
-  background: #585c68;
+  /* background: #585c68; */
   font-size: 12px;
   line-height: 22px;
   color: #555555;
@@ -45,7 +45,7 @@ body{
 .resume .resume_left{
   width: 237px;
   /* background: #0bb5f4; */
-  background: #f2f2f2de;
+  background: #d4d4d4de;
 }
 
 .resume .resume_left .resume-profile{
@@ -306,14 +306,29 @@ body{
   background: #000000;
 } */
 
+.projects {
+  width: 100%;
+}
+
 .projects-table {
-  /* margin-right: 25px; */
+  border-collapse: collapse;
   font-size: 10px;
+}
+
+.projects-table td {
+  border: 1px solid black;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+.projects-table th {
+  border: 1px solid black;
 }
 
 .table-head {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* .resume .resume_right .resume_hobbies ul{
