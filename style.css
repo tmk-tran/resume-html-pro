@@ -19,7 +19,7 @@ body{
 
 .bold1{
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
@@ -29,6 +29,11 @@ body{
   text-transform: uppercase;
 }
 
+.bold3 {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
 
 .semi-bold{
   font-weight: 400;
@@ -62,16 +67,16 @@ body{
 }
 
 .resume .resume_left .bold1{
-  line-height: 40px;
+  line-height: 30px;
   /* color: #fff; */
-  padding: 40px;
+  padding: 32px;
 }
 
 .resume .resume_left .bold2{
   /* color: #fff; */
-  padding: 25px;
+  padding: 15px;
   margin-left: 50px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .resume .resume_left .regular{
@@ -80,7 +85,7 @@ body{
 }
 
 .resume .resume_item{
-  padding: 25px 0;
+  padding: 15px 0;
   border-bottom: 2px solid #000000;
 }
 
@@ -117,6 +122,14 @@ body{
 .skill-icon i {
   color: black;
 }
+
+/* .skills {
+  border: 1px solid black;
+} */
+
+/* .title2 {
+  border: 1px solid black;
+} */
 
 .skills ul{
   display: flex;
